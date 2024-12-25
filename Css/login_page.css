@@ -1,0 +1,95 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main_head{
+    margin-top: 20px;
+}
+
+.icon.a{
+    display: inline-block;
+    
+}
+.icon{
+    margin-top: 5px;
+    padding:0 30px;
+}
+.fa-brands{
+    color:rgb(78, 78, 169);
+}
+.fa-solid{
+    color: rgb(106, 106, 97);
+}
+.main_body{
+    /* padding: 1200px;
+    margin:0 auto; */
+    background-color: black(233, 213, 213);
+    text-align: center;
+}
+.background{
+    width: 430px;
+    height: 520px;
+    position: absolute;
+}
+.main_form{
+    height: 530px;
+    width: 410px;
+    background-image: url('../image/login_page.jpeg');
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    padding: 50px 35px;
+}
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+form h3{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(125, 125, 219);
+    border-radius: 30px;
+    padding: 0 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 300;
+}
+::placeholder{
+    font-weight: bold;
+    color: white;
+}
+
+/* 로그인 button 사적 */
+button{
+    margin-top: 50px;
+    width: 100%;
+    background-color:white;
+    color: black;
+    padding: 17px 0;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 30px; 
+}
+/* 로그인 button 설정 끝 */

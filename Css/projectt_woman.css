@@ -1,0 +1,47 @@
+/* .woman_main_image{
+    width: 1200px;
+    height: 700px;
+    padding: 30px 0;
+} */
+#container_w{
+    padding: 30px;
+}
+
+.bac_image{
+    background-image: url('../image/woman_main.avif');
+    width: 1200px;
+    height: 700px;
+    background-size: cover;
+    text-align: center;
+    
+}
+.woman_sec{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    color: white;
+    
+}
+#woman_fashion{
+    padding: 30px;
+    font-size: 4rem;
+}
+#woman_fashion:hover{
+    color: black;
+}
+#woman_fashion_button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 10%;
+}
+#woman_fashion_button:hover{
+    background-color:brown;
+    color: aqua;
+}
+.woman_fashion_button{
+    display: inline-block;
+}
+.collection_img{
+    margin: 15px;
+}

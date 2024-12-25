@@ -1,0 +1,70 @@
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.aside_video{
+    background-color: rgb(88, 88, 230);
+    text-align: right;
+}
+
+.aside_video>div{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.video{
+    width: 400px;
+}
+.about_sec{
+    text-align: right;
+    
+}
+.home_text{
+    color: white;
+    display: inline-block;
+    margin-right: 350px;
+    vertical-align: text-bottom ;
+    text-transform: uppercase;
+    font-size: 2rem; 
+}
+
+.home_text:hover{
+    color: darkred;
+}
+
+.uz{
+    display: inline-block;
+    margin-right: 100px;
+    text-transform: uppercase;
+}
+.uz1{
+    
+    margin-right: 130px;
+}
+
+.statistics_item{
+    display: inline-block;
+    text-align: center;
+    width: 130px;
+}
+
+.statistics_number{
+    font-size: 20px;  
+    color: rgb(13, 14, 14);
+}
+
+.statistics_title{
+    font-size: 16px;
+    color: #000;
+    font-weight: 300;
+}
+.statistics{
+    text-align: right;
+}
+/* statistic section */

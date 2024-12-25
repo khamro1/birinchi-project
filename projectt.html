@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fashion</title>
+    <link rel="stylesheet" href="Css/projectt.css">
+    <link rel="stylesheet" href="Css/projectt_man.css">
+    <link rel="stylesheet" href="Css/projectt_woman.css">
+    <link rel="stylesheet" href="Css/projectt_collection.css">
+    <link rel="stylesheet" href="Css/projectt_footer.css">
+    <link rel="stylesheet" href="Css/projectt_header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- header 시작 -->
+    <!--.container{
+    width: 1200px;
+    margin: 0 auto;
+    }  화면 크기 저절-->
+    <div class="container">
+        <header class="main_header">
+            <nav class="nav">
+                <div class="logo">
+                    <a href="projectt.html">fashion</a>
+                </div>
+                <ul class="nav_items">
+                    <li class="menu_item active"><a href="#">home</a></li>
+                    <li class="menu_item"><a href="#">man</a></li>
+                    <li class="menu_item"><a href="#">woman</a></li>
+                    <li class="menu_item"><a href="#">collection</a></li>
+                </ul>
+                <div class="seach">
+                    <input type="text" id="input">
+                    <a href="input"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="login_page.html"><i class="fa-solid fa-user"></i></a>
+                </div>
+            </nav>
+        </header>
+        <hr>
+    </div>
+    <!-- header 끝 -->
+
+    <!-- section 시작 -->
+    <div class="container">
+        <section class="about_sec" id="about_sec">
+            <div class="first_sec_info">
+                <h1 class="uz">new collection</h1>
+                <p class="uz1">Enjoy with fashion</p>
+                <!-- <button type="button" class="button">by now</button> -->
+            </div>
+        </section>
+        <aside class="aside_video">
+            <div class="home_text">
+                <h1>welcome</h1>
+                <h1>to</h1>
+                <h1>fashion</h1>
+                <h1>shop</h1>
+                <h1>center</h1>
+            </div>
+            <video class="video" src="video/aside_video.mp4" controls width="400" autoplay loop></video>
+        </aside>
+        <div class="clearfix"></div>
+    </div>
+
+    <div class="container">
+        <section class="statistics">
+            <div class="statistics_item">
+                <h3 class="statistics_number">
+                    15k+
+                </h3>
+                <p class="statistics_title">
+                    <i class="fa-regular fa-heart"></i>
+                </p>
+            </div>
+            <div class="statistics_item">
+                <h3 class="statistics_number">
+                    12k+
+                </h3>
+                <p class="statistics_title">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                </p>
+            </div>
+            <div class="statistics_item">
+                <h3 class="statistics_number">
+                    20k+
+                </h3>
+                <p class="statistics_title">
+                    <i class="fa-solid fa-eye"></i>
+                </p>
+            </div>
+        </section>
+        <hr>
+    </div>
+    <!-- man section 시작점 -->
+    <div id="container_m" class="container">
+        <section class="man_sec">
+            <div class="sec_sec_info">
+                <h1 id="man_text">Man</h1>
+                <form id="man_button">
+                    <select id="select">
+                        <option>options</option>
+                        <option value="first">바지</option>
+                        <option value="first">티</option>
+                        <option value="first">가방</option>
+                        <option value="first">신발</option>
+                        <option value="first">모자</option>
+                    </select>
+                </form>
+            </div>
+            <div class="list">
+                <figure class="f_image">
+                    <img class="list_image" src="image/man_image1.avif" alt="foto1">
+                    <img class="list_image" src="image/man_image2.avif" alt="foto2">
+                    <img class="list_image" src="image/man_image4.avif" alt="foto3">
+                </figure>
+            </div>
+        </section>
+        <section class="man_sec_prod">
+            <div class="man_sec_prod_list">
+                <div class="prod_title">
+                    <img id="prod_image1" class="prod_image1" src="image/prod_image1.avif" alt="prod_image1">
+                    <p>color:black</p>
+                    <p>제품 : C201 스니커즈</p>
+                    <p>170,000원</p>
+                </div>
+                <div class="prod_title">
+                    <img id="prod_image2" class="prod_image1" src="image/prod_image2.avif" alt="prod_image1">
+                    <p>color:black</p>
+                    <p>제품 : 헤리티지 C 플래크 해링턴 재킷</p>
+                    <p>330,000원</p>
+                </div>
+                <div class="prod_title">
+                    <img id="prod_image3" class="prod_image1" src="image/prod_image3.avif" alt="prod_image1">
+                    <p>color:blue&white</p>
+                    <p>제품 : C201 스니커즈</p>
+                    <p>270,000원</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- man section 끝점 -->
+    <!-- woman section 시작점 -->
+    <div class="container" id="container_w">
+        <div class="bac_image">
+            <section class="woman_sec">
+                <h1 id="woman_fashion">WOMAN FASHIONS</h1>
+            </section>
+            <section class="woman_fashion_button">
+                <button id="woman_fashion_button" type="button">Buy Now</button>
+            </section>
+        </div>
+    </div>
+    <div class="container" id="container_ww">
+        <section class="man_sec_prod">
+            <div class="man_sec_prod_list">
+                <div class="prod_title">
+                    <img id="prod_image1" class="prod_image1" src="image/woman_image1.avif" alt="prod_image1">
+                    <p>color:brown</p>
+                    <p>제품 : 나탈리 로퍼</p>
+                    <p>390,000원</p>
+                </div>
+                <div class="prod_title">
+                    <img id="prod_image2" class="prod_image1" src="image/woman_image2.avif" alt="prod_image1">
+                    <p>color:white</p>
+                    <p>제품 : 하이 라인 스니커즈</p>
+                    <p>210,000원</p>
+                </div>
+                <div class="prod_title">
+                    <img id="prod_image3" class="prod_image1" src="image/woman_image3.avif" alt="prod_image1">
+                    <p>color:white</p>
+                    <p>제품 : 트위드 드레스</p>
+                    <p>730,000원</p>
+                </div>
+            </div>
+        </section>
+        <section class="man_sec_prod">
+            <div class="man_sec_prod_list">
+                <div class="prod_title">
+                    <img id="prod_image1" class="prod_image1" src="image/woman_image4.avif" alt="prod_image1">
+                    <p>color:pink</p>
+                    <p> : 크루넥 보우 스웨터 </p>
+                    <p>830,000원</p>
+                </div>
+                <div class="prod_title">
+                    <img id="prod_image2" class="prod_image1" src="image/woman_image5.avif" alt="prod_image1">
+                    <p>color:black</p>
+                    <p>제품 : 에이스 토트 17 </p>
+                    <p>450,000원</p>
+                </div>
+                <div class="prod_title">
+                    <img id="prod_image3" class="prod_image1" src="image/woman_image6.jpg" alt="prod_image1">
+                    <p>color:brown</p>
+                    <p>제품 : 태비 백팩 위드 퀼팅</p>
+                    <p>780,000원</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- woman section 끝점 -->
+    <!-- collection section 시작점 -->
+    <div class="container">
+        <section class="collection_sec">
+            <div class="collection_title">
+                <h1 id="collection_title">best collection</h1>
+            </div>
+            <div class="collection_title">
+                <p>따뜻함과 스타일을 동시에, 겨울 필수 아이템을 만나보세요</p>
+            </div>
+        </section>
+        <div class="collection_img">
+            <img class="col_img" src="image/col_image1.avif" alt="col_image1.avif">
+            <img class="col_img" src="image/col_image2.avif" alt="col_image2.avif">
+            <img class="col_img" src="image/col_image3.avif" alt="col_image3.avif">
+            <img class="col_img" src="image/col_image4.avif" alt="col_image4.avif">
+            <img class="col_img" src="image/col_image5.avif" alt="col_image5.avif">
+            <img class="col_img" src="image/col_image6.avif" alt="col_image6.avif">
+        </div>
+    </div>
+    <!-- collection section 끝점 -->
+    <!-- section 끝 -->
+
+    <!-- footer 시작 -->
+    <div class="container">
+        <footer>
+            <footer class="main_footer">
+                <div class="footer_title">
+                    <h1 class="footer">my account</h1>
+                    <ul class="main_footer_items">
+                        <li class="main_footer_item"><a href="#">로그인</a></li>
+                        <li class="main_footer_item"><a href="#">회원가입</a></li>
+                        <li class="main_footer_item"><a href="#">주문 배송 조회</a></li>
+                    </ul>
+                </div>
+                <div class="footer_title">
+                    <h1 class="footer">customer care</h1>
+                    <ul class="main_footer_items">
+                        <li class="main_footer_item"><a href="#">고객 지원</a></li>
+                        <li class="main_footer_item"><a href="#">반품&교환 안내</a></li>
+                        <li class="main_footer_item"><a href="#">주문 배송 조회상품케어</a></li>
+                        <li class="main_footer_item"><a href="#">매장 안내</a></li>
+                        <li class="main_footer_item"><a href="#">사이트 맵</a></li>
+                    </ul>
+                </div>
+                <div class="footer_title">
+                    <h1 class="footer">about us</h1>
+                    <ul class="main_footer_items">
+                        <li class="main_footer_item"><a href="#">foshin 스토리</a></li>
+                        <li class="main_footer_item"><a href="#">채용 정보</a></li>
+                        <li class="main_footer_item"><a href="#">기업활동설명</a></li>
+                        <li class="main_footer_item"><a href="#">그로벌 운영</a></li>
+                    </ul>
+                </div>
+                <div class="footer_title">
+                    <h1 class="footer">sns</h1>
+                    <ul class="main_footer_items">
+                        <li class="main_footer_item"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li class="main_footer_item"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li class="main_footer_item"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li class="main_footer_item"><a href="#"><i class="fa-brands fa-youtube"></i></i></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </footer>
+    </div>
+    <!-- footer 끝 -->
+</body>
+
+</html>
